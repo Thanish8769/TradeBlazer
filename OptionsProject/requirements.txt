@@ -1,13 +1,7 @@
-beautifulsoup4==4.12.3
 firebase_admin==6.4.0
-marketwatch==0.2.3
-matplotlib==3.8.3
-numpy==1.23.4
 pandas==1.5.0
 pandas_datareader==0.10.0
 pandas_market_calendars==4.4.0
 pyrebase==3.0.27
-pytz==2022.4
 streamlit==1.31.1
-streamlit_modal==0.1.2
 yfinance==0.2.37
