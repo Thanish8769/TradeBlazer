@@ -1,7 +1,10 @@
-import streamlit as st  
+import streamlit as st
+# from streamlit_modal import Modal   
+# from st_aggrid import AgGrid, GridUpdateMode
+from st_aggrid.grid_options_builder import GridOptionsBuilder
 import pandas as pd
 import pandas_market_calendars as mcal
-import numpy as np
+# import numpy as np
 import yfinance as yf
 
 import firebase_admin
@@ -9,18 +12,19 @@ from firebase_admin import credentials
 from firebase_admin import auth
 import pyrebase
 from firebase_admin import db
-from collections import OrderedDict
-import pytz 
+# from collections import OrderedDict
+# import pytz 
 import datetime
-import time
-import json
-import matplotlib.pyplot as plt
-import numpy as np
-from marketwatch import MarketWatch
-import requests
-from bs4 import BeautifulSoup
-from pandas_datareader import data as pdr
-from pandas_datareader.yahoo.options import Options 
+# import time
+# import json
+# import matplotlib.pyplot as plt
+# import numpy as np
+# from marketwatch import MarketWatch
+# import requests
+# from bs4 import BeautifulSoup
+# from pandas_datareader import data as pdr
+# from pandas_datareader.yahoo.options import Options 
+
 if not firebase_admin._apps:
     cred = credentials.Certificate('optionssim-473a4-4d9f929e1d77.json') 
     #Firebase requires authenatication to access its services
